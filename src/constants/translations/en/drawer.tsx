@@ -1,0 +1,17 @@
+export default {
+  RATE: "RATE",
+  APPLICATIONS: "Applications",
+  APPLICATIONS_DESC: "Sponsorship applications, education, and more...",
+  WISLIST: "Wishlist",
+  WISLIST_DESC: "Things you like, things you want to get",
+  CONTACT: "Contact",
+  CONTACT_DESC: "Our addresses, get in touch with us",
+  LOG_OUT: "Log Out",
+  CENTRE: "Centre",
+  PHONE: "Phone",
+  EMAİL: "E mail",
+  SEND_CV: "Cv Gönder",
+  CONTACT_FORM: "İletişim Form",
+  PROFILE_SETTING: "Profile Setting",
+  NOTIFICATION: "Notification",
+};

@@ -1,0 +1,18 @@
+export default {
+  RATE: "Oran",
+  APPLICATIONS: "Başvurular",
+  WISLIST: "Wishlist",
+  CONTACT: "İletişim",
+  LOG_OUT: "Çıkış Yap",
+  APPLICATIONS_DESC: "Sponsorluk başvurları, eğitim ,...",
+  WISLIST_DESC: "Beğendiklerin, almak istediklerin",
+  CONTACT_DESC: "Adreslerimiz, bizimle iletişime geç ",
+  SEND_FORM: "Form gönder",
+  CENTRE: "Merkez",
+  PHONE: "Telefon",
+  EMAİL: "E posta",
+  SEND_CV: "Cv Gönder",
+  CONTACT_FORM: "İletişim Formu",
+  PROFILE_SETTING: "Profil Ayarları",
+  NOTIFICATION: "Bildirimler",
+};

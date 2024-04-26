@@ -1,0 +1,108 @@
+import { fontFamily } from "@src/constants";
+import { window } from "@src/constants/dimensions";
+
+import { MyTheme } from "@src/constants/types";
+import { StyleSheet } from "react-native";
+
+// Type
+
+const getStyles = (theme: MyTheme) =>
+  StyleSheet.create({
+    textInput: {
+      marginBottom: 12,
+      marginTop: 8,
+      height: 44,
+      borderWidth: 1,
+      borderRadius: 10,
+      color: theme.gray[100],
+      borderColor: theme.gray[700],
+      fontFamily: fontFamily.raleway.regular,
+      fontSize: 12,
+      paddingHorizontal: 16,
+    },
+    textPasswordInput: {
+      marginTop: 8,
+      height: 44,
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      borderWidth: 1,
+      borderColor: theme.gray[700],
+      borderRadius: 10,
+      paddingHorizontal: 16,
+    },
+
+    input: {
+      flex: 1,
+      color: theme.gray[100],
+      fontFamily: fontFamily.raleway.regular,
+      fontSize: 12,
+    },
+    rememberPassContainer: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      marginTop: 14,
+    },
+    rowContainer: {
+      alignItems: "center",
+      flexDirection: "row",
+    },
+    tickContainer: {
+      borderWidth: 1,
+      borderColor: theme.gray[700],
+      backgroundColor: theme.primary.main,
+      width: 20,
+      height: 20,
+      alignItems: "center",
+      justifyContent: "center",
+      borderRadius: 8,
+    },
+    altContainer: {
+      borderRadius: 20,
+      paddingHorizontal: 16,
+    },
+    userInfoContainer: {
+      marginTop: 50,
+    },
+    userTitle: {
+      marginTop: 12,
+      fontFamily: fontFamily.raleway.regular,
+      fontSize: 12,
+      color: theme.primary.light,
+      textDecorationLine: "underline",
+      letterSpacing: 0.24,
+    },
+    textInputTitle: {
+      color: theme.gray[400],
+      fontFamily: fontFamily.raleway.medium,
+      fontSize: 12,
+    },
+
+    rememberText: {
+      marginLeft: 8,
+      color: theme.gray[400],
+      fontSize: 12,
+      fontFamily: fontFamily.raleway.medium,
+    },
+    passwordForget: {
+      color: theme.primary.main,
+      fontSize: 12,
+      fontFamily: fontFamily.raleway.medium,
+      letterSpacing: 0.24,
+    },
+    buttonContainer: {
+      backgroundColor: theme.primary.main,
+      width: window.width - 34,
+      alignItems: "center",
+      borderRadius: 8,
+      paddingVertical: 16,
+    },
+    button: {
+      color: "white",
+      fontSize: 14,
+      fontFamily: fontFamily.raleway.semiBold,
+      letterSpacing: 0.28,
+    },
+  });
+
+export default getStyles;

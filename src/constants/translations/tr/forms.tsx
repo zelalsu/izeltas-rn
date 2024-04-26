@@ -1,0 +1,20 @@
+export default {
+  SEND_FORM: "Form gönder",
+  CONTACT_FORM: "İletişim Formu",
+  SEND_CV: "Cv Gönder",
+  NAME: "İsim",
+  SURNAME: "Soyisim",
+  EMAİL: "E posta",
+  PHONE: "Telefon Numarası",
+  ADDRESS: "Adres",
+  MESSAGE: "Mesajınız",
+  CHANGE_PASSWORD: "Şifre değiştir",
+  CURRENT_PASSWORD: "Mevcut Şifre",
+  NEW_PASSWORD: "Yeni Şifre",
+  SAVE: "Kaydet",
+  RE_TYPE_PASSWORD: "Yeni şifreyi yeniden girin",
+  BIRTHDAY: "Doğum günü",
+  PASSWORD_CHANGE_DESC:
+    "Şifreniz en az 8 karakter olmalı ve sayı, harf ve özel karakterlerden(!_@%..) oluşan bir kombinasyon içermelidir.",
+  PHOTO_ADD: "Profil Fotoğrafı koy",
+};

@@ -1,0 +1,20 @@
+export default {
+  CONTACT_FORM: 'Contact Form',
+  SEND_FORM: 'Send Form',
+  SEND_CV: 'Send Cv',
+  NAME: 'Name',
+  SURNAME: 'Surname',
+  EMAİL: 'E mail',
+  PHONE: 'Phone Number ',
+  ADDRESS: 'Address',
+  MESSAGE: 'Message',
+  CHANGE_PASSWORD: 'Change password',
+  CURRENT_PASSWORD: 'Current password',
+  NEW_PASSWORD: 'New password',
+  RE_TYPE_PASSWORD: 'Re-type new password',
+  BIRTHDAY: 'Birthday',
+  SAVE: 'Save',
+  PASSWORD_CHANGE_DESC:
+    'Your password must be at least 8 characters and should include a combination of numbers,letters and special characters(!_@%..)',
+  PHOTO_ADD: 'Put the profile photo',
+};
